@@ -1,4 +1,0 @@
-[functions]
-  [functions.render]
-    filename = "netlify/functions/render.ts"
-    handler = "render"
