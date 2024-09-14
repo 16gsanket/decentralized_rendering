@@ -11,7 +11,6 @@ export const EBLTemplate: FunctionComponent<TemplateProps<eBLTemplateDocument> &
       <h1>{document?.shipper}</h1>
       <div>awarded to</div>
       
-
 <table className="min-w-full border border-black table-fixed">
         {/* Header Row */}
         <thead>
@@ -167,53 +166,6 @@ export const EBLTemplate: FunctionComponent<TemplateProps<eBLTemplateDocument> &
  
         </tbody>
       </table>
-
-{/* <table>
-    <tr>
-        <th>Kind of Packages: Description of Goods, Marks, and Numbers</th>
-        <td>Container No./Serial No.</td>
-        <th>Weight</th>
-        <th>Measurement</th>
-    </tr>
-    <tr>
-        <td colSpan={4}>Above particulars as declared by Shipper, but without responsibility of our representation by Carrier (see clause 14)</td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th>Freight & Charges</th>
-        <th>Rule</th>
-        <th>Unit</th>
-        <th>Currency</th>
-        <th>Prepaid</th>
-        <th>Collect</th>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th>Carrier's Receipt</th>
-        <td colSpan={5}>1 container</td>
-    </tr>
-    <tr>
-        <th>Number & Sequence of Original B(s)/L</th>
-        <td colSpan={5}>THREE/3</td>
-    </tr>
-    <tr>
-        <th>Date of Issue of B/L</th>
-        <td colSpan={5}></td>
-    </tr>
-    <tr>
-        <th>Declared Value (see clause 7.3)</th>
-        <td colSpan={5}></td>
-    </tr>
-    <tr>
-        <th>Shipped on Board Date (Local Time)</th>
-        <td colSpan={5}></td>
-    </tr>
-</table> */}
-
 
     </div>
   );
