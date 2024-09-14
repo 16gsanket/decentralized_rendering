@@ -10,7 +10,6 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    
     "build": "run-s check-types build:app",
     "build:app": "cross-env NODE_ENV=production webpack --progress --mode production",
     "check-types": "tsc --sourceMap false --noEmit",
@@ -34,6 +33,7 @@
     "date-fns": "^3.3.1",
     "debug": "^4.3.4",
     "escape-goat": "4.0.0",
+    "jspdf": "^2.5.1",
     "netlify-lambda": "^2.0.16",
     "os-browserify": "^0.3.0",
     "pdf-lib": "^1.17.1",
