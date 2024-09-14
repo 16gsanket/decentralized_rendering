@@ -2,7 +2,7 @@ import React, { FunctionComponent } from "react";
 import { TemplateProps } from "@tradetrust-tt/decentralized-renderer-react-components";
 import { eBLTemplateDocument } from "./sample";
 
-const EBLTemplate: FunctionComponent<TemplateProps<eBLTemplateDocument> & { className?: string }> = ({
+export const EBLTemplate: FunctionComponent<TemplateProps<eBLTemplateDocument> & { className?: string }> = ({
   document,
   className = "",
 }) => {
@@ -171,6 +171,6 @@ const EBLTemplate: FunctionComponent<TemplateProps<eBLTemplateDocument> & { clas
   );
 };
 
-export default EBLTemplate;
+
 
 // eBLTemplate
