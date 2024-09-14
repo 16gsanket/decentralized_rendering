@@ -10,7 +10,8 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "build": "run-s check-types build:app",
+    
+    "build": "npm run build && cp -r public/* netlify/functions/public/",
     "build:app": "cross-env NODE_ENV=production webpack --progress --mode production",
     "check-types": "tsc --sourceMap false --noEmit",
     "dev": "run-s dev:server",
