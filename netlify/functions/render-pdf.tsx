@@ -6,7 +6,7 @@ const renderPdf: Handler = async (event) => {
   const template = 'template.json'; // update with your template path
 
   // Load the template
-  const templateJson = require(`../public/${template}`);
+  const templateJson = require(`src/templates/eBL/template.tsx`);
 
   // Populate the template with the payload data
   const populatedTemplate = populateTemplate(templateJson, payload);
