@@ -6,5 +6,4 @@
   to = "https://decetralizedrenderer.netlify.app/.netlify/functions/:splat"
   status = 200
   force = true
-  headers = { X-Forwarded-Host = ":splat", Access-Control-Allow-Origin = "*" }
-
+  headers = { Access-Control-Allow-Origin = "*" }
